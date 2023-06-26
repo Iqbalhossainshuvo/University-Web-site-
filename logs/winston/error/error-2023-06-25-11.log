@@ -1,0 +1,352 @@
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:57:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:01:09.974Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:03:04.022Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:04:05.075Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:35.990Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:36.372Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:36.706Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:36.963Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:37.283Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:37.660Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:37.999Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:38.273Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:38.529Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:08:38.802Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:19:24.310Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:37:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:20:36.813Z'
+}
+{
+  level: 'error',
+  message: 'globalErrorHandler Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle",
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'MongoClient'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'client' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:1150:12)\n' +
+    '    at ServerResponse.json (C:\\allProject\\university management system project\\University-Managment-App\\node_modules\\express\\lib\\response.js:271:14)\n' +
+    '    at C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:41:21\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\allProject\\university management system project\\University-Managment-App\\src\\app\\module\\academicDepartment\\academicDepartment.Controller.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right error',
+  timestamp: '2023-06-25T05:31:41.892Z'
+}

@@ -1,0 +1,39 @@
+yarn init
+typeScript => yarn add typescript --dev
+mongoose => yarn add install mongoose --save
+Express => yarn add install express --save
+dotEnv => yarn add install dotenv 
+yarn add i @types/express
+yarn add i cors // yarn add i --save-dev @types/cors
+yarn add i --save-dev @types/express // express show error that way install this package
+
+
+eslint ==> check code error
+prettier == formate code 
+husky => commit check // yarn add i husky // https://www.npmjs.com/package/husky
+lint Stage => only check stage field // yarn add install --save-dev lint-staged
+
+
+typescript eslint prettier setup (search on google and setup this package)
+i follow this post : https://blog.logrocket.com/linting-typescript-eslint-prettier/
+
+yarn add install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
+
+
+
+
+// Logger I use winston => https://www.npmjs.com/package/winston
+install => winston => npm i winston, yarn add winston
+set up => winston and crete file 
+show results => console or file 
+formate results =>  results with time 
+delete results => delete results one day or specific database
+remove => use automatic delete log from your logger file use rotate=> https://www.npmjs.com/package/winston-daily-rotate-file
+show results =>show results in user but hide main results 
+
+
+// Error handling 
+create a custom error handling class from controller 
+send the data in in global handler 
+
+ 
