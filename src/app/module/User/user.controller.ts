@@ -1,10 +1,11 @@
 import { RequestHandler } from 'express'
-import { UserService } from './user.service'
+import {  userService } from './user.service'
 
-const userCreateId: RequestHandler = async (req, res, next) => {
+const userCreateStudent: RequestHandler = async (req, res, next) => {
   try {
-    const { user } = req.body
-    const result = await UserService.createUser(user)
+   
+    const {student, ...user } = req.body
+    const result = await userService.createStudent(student, user)
     console.log(result)
     res.status(200).json({
       success: true,
@@ -23,4 +24,4 @@ const userCreateId: RequestHandler = async (req, res, next) => {
   }
 }
 
-export const UserController = { userCreateId }
+export const UserController = { userCreateStudent }

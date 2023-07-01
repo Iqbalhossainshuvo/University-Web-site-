@@ -17,7 +17,7 @@ const departmentSchema = new Schema<
     academicFaculty: {
       type: Schema.Types.ObjectId,
       ref: 'AcademicFaculty',
-      required: true,
+      // required: true,
     },
   },
   {
@@ -27,8 +27,13 @@ const departmentSchema = new Schema<
     },
   }
 );
-
 export const department = model<IAcademicDepartment, IAcademicDepartmentModel>(
   'department',
   departmentSchema
 );
+
+
+// export const department = model<IAcademicDepartment, IAcademicDepartmentModel>(
+//   'department',
+//   departmentSchema
+// );
