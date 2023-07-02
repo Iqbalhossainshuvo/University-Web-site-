@@ -36,4 +36,23 @@ show results =>show results in user but hide main results
 create a custom error handling class from controller 
 send the data in in global handler 
 
+
+password Hash => 
+https://www.npmjs.com/package/bcrypt I use this npm package , and also use type dapenation for typeScript
+
+
+1) install this npm and install typedefination
+2) import bcrypt which file you want to use this package
+3) use solt round কত বারে password টা তৈরি হবে ঐ সংখ্যা টা দিবে 
+4) // hash passwords এখানে mongoose pre নামে একটা হুক দেয়,আর এই pre হুক এর ভিতর this নামে একটা variable থাকে, এটার ভিতর ঐ মডেল এর সকল ফিল্ড থাকে, আর যেখানে this থাকবে, সেখানে normal function হবে,  যেটা কোন কিছু কে কিছুক্ষণের জন্য দরে রাখতে পারে , এটা save বা create এর ক্ষেত্রে হয়ে থাকে, আমরা modal তা ব্যবহার করি কারন এখান model হল common এবং এখান থেকে আমাদের ডাটা database য়ে save হয়,এবং সব কাজ হয়  
+
+UserIdSchema.pre('save', async function (next){
+  const user = this 
+  user.password = await bcrypt.hash(user.password,
+    Number(config.hash_password))
+    next();
+})
+
+
+
  

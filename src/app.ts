@@ -6,6 +6,7 @@ import globalErrorHandler from './allErrorHandlerFunction/globalErrorHandler/glo
 import { AcademicSemesterRoute } from './app/module/academicSemester/academicSemester.route';
 import { FacultyRoute } from './app/module/academicFaculty/academicFaculty.Route';
 import { departmentRouter } from './app/module/academicDepartment/academicDepartment.Route';
+import { loginRoute } from './app/module/Auth/Auth.route';
 const app: Application = express();
 app.use(cors());
 
@@ -31,6 +32,7 @@ app.use('/api/v1/getall', departmentRouter);
 app.use('/api/v1/update-department', departmentRouter);
 app.use('/api/v1/get-single-department', departmentRouter);
 app.use('/api/v1/delete-department', departmentRouter);
+app.use('/api/v1/login', loginRoute);
 
 app.use(globalErrorHandler);
 export default app;

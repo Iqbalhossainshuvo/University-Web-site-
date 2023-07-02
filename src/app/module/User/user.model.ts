@@ -1,5 +1,9 @@
+/* eslint-disable @typescript-eslint/no-this-alias */
 import { Schema, model } from 'mongoose';
-import { UserModel, IUser } from './user.interface';
+import bcrypt from 'bcrypt';
+import { UserModel, IUser, IUserMethods } from './user.interface';
+import config from '../../../config';
+
 
 // And a schema that knows about IUserMethods
 // export const UserIdSchema = new Schema<IUser, UserModel>({
@@ -8,7 +12,7 @@ import { UserModel, IUser } from './user.interface';
 //   password: { type: String, required: true, unique: true },
 // })
 
-const UserIdSchema = new Schema<IUser>(
+const UserIdSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
   {
     id: {
       type: String,
@@ -22,6 +26,7 @@ const UserIdSchema = new Schema<IUser>(
     password: {
       type: String,
       required: true,
+      select:0
     },
     needsPasswordChange: {
       type: Boolean,
@@ -44,6 +49,19 @@ const UserIdSchema = new Schema<IUser>(
     timestamps: true,
   }
 );
+
+UserIdSchema.methods.isUserExist = async function (id:string){
+  const user = await users.findOne({id}, {id:1, password:1, needsPasswordChange:1})
+  return user
+}
+
+// hash passwords
+UserIdSchema.pre('save', async function (next){
+  const user = this 
+  user.password = await bcrypt.hash(user.password,
+    Number(config.hash_password))
+    next();
+})
 
 /* database collection this called modal, here 'User' is database collection name */
 export const users = model<IUser, UserModel>('User', UserIdSchema);

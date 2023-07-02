@@ -13,6 +13,14 @@ export type IUser = {
   admin?: Types.ObjectId | IAdmin;
 };
 
+
+// common properties 
+export  type IUserMethods = {
+  isUserExist(id:string):Promise<Partial<IUser | null>>;
+  isPasswordMatch(givenPassword:string, savePassword:string):Promise<boolean>;
+}
+
+
 // Create a new Model type that knows about IUserMethods...
 /* // Create a new Model type that knows about IUserMethods...
 type UserModel = Model<IUser, {here need Query Helper Methods => https://codeigniter.com/user_guide/database/helpers.html}, this is static method function when need we are use static method IUserMethods>; */
